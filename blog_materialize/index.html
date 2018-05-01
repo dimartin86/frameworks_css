@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width= device-width, initial-scale= 1">
+	<title>Document</title>
+	<link rel="stylesheet" href="materialize/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/estilo.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="materialize/js/materialize.min.js"></script>
+
+	<script>
+		$(function(){
+			$('.sidenav').sidenav();
+		});		
+	</script>
+</head>
+<body>
+	<div class="container">
+		<header class="row">
+			<div class="col s12">
+				<nav>
+					<div class="nav-wrapper blue">
+						<a href="#!" class="brand-logo">
+							<img src="img/logo.jpg" alt="" height="150px">
+						</a>
+						<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+						<ul class="right hide-on-med-and-down">
+							<li><a href="#">Inicio</a></li>
+							<li><a href="#">Estuve en</a></li>
+							<li><a href="#">Mejores viajes</a></li>
+							<li><a href="#">Recomendaciones</a></li>
+						</ul>
+					</div>
+				</nav>
+
+				<ul class="sidenav" id="mobile-demo">
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Estuve en</a></li>
+					<li><a href="#">Mejores viajes</a></li>
+					<li><a href="#">Recomendaciones</a></li>
+				</ul>					
+			</div>
+		</header>
+
+		<section class="galeria">
+			<h5>Slogan: Creando mi propio camino</h5>
+
+			<div class="div_galeria row">
+				<div class="col s12 m1 redes">
+					<img src="img/facebook.png" alt="" height="50px">
+					<img src="img/instagram.png" alt="" height="50px">
+					<img src="img/pinterest.png" alt="" height="50px">
+					<img src="img/twitter.png" alt="" height="50px">
+					<img src="img/youtube.png" alt="" height="50px">
+				</div>
+				<div class="col s12 m4">
+					<div class="cont_galeria1"><img src="img/Banos-de-Agua-Santa.jpg" alt=""></div>
+					<div class="cont_galeria1"><img src="img/Baños-aventura.jpg" alt=""></div>
+				</div>
+				<div class="col s12 m4">
+					<div class="cont_galeria2"><img src="img/turismo-lagomar.jpg" alt=""></div>
+				</div>	
+				<div class="col s12 m3">
+					<div class="cont_galeria3"><img src="img/baños-de-agua-santa-02.jpg" alt=""></div>
+					<div class="cont_galeria3"><img src="img/descarga.jpg" alt=""></div>
+					<div class="cont_galeria3"><img src="img/10616002_851531788190858_5030112634990823416_n.jpg" alt=""></div>
+				</div>							
+			</div>
+		</section>
+
+		<section class="row">
+			<div class="col s12 m9 entrada">
+				<div class="row">
+					<h2>Entrada 1</h2>
+					<div class="col s12 m5">
+						<img src="img/Coliseo-de-Roma-abril-2007-300x176.jpg" alt="">
+					</div>
+					<div class="col s12 m7 texto">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime laboriosam ratione, deleniti tenetur ab, ex, asperiores voluptatum illo recusandae amet laborum excepturi similique rerum. Excepturi sunt assumenda nihil provident doloribus.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quidem excepturi eligendi praesentium doloremque tempore, dicta nesciunt inventore voluptas adipisci harum, rerum. Voluptatem quisquam enim facilis nisi, harum aliquid veniam?
+					</div>
+				</div>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, nemo libero doloribus illo corporis sint, perferendis fugiat dolore autem quia dolorem reprehenderit impedit vero vel magni laborum nam quae. Quae.
+				</p>
+
+				<table class="tbl_comentario">
+					<tr>
+						<td style="width: 60px;">
+							<span class="icon_coment material-icons">account_circle</span>
+						</td>						
+						<td class="input-field col s12">
+							<textarea name="" id="coment1" cols="30" rows="10" placeholder="Comentario..." style="width: 100%; height: 47px"></textarea>
+						</td>
+					</tr>
+				</table>
+
+				<div class="row">
+					<h2>Entrada 2</h2>
+					<div class="col s12 m7 texto">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime laboriosam ratione, deleniti tenetur ab, ex, asperiores voluptatum illo recusandae amet laborum excepturi similique rerum. Excepturi sunt assumenda nihil provident doloribus.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quidem excepturi eligendi praesentium doloremque tempore, dicta nesciunt inventore voluptas adipisci harum, rerum. Voluptatem quisquam enim facilis nisi, harum aliquid veniam?
+					</div>
+					<div class="col s12 m5">
+						<img src="img/panteon-de-agripa-300x185.jpg" alt="">
+					</div>					
+				</div>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, nemo libero doloribus illo corporis sint, perferendis fugiat dolore autem quia dolorem reprehenderit impedit vero vel magni laborum nam quae. Quae.
+				</p>
+
+				<table class="tbl_comentario">
+					<tr>
+						<td style="width: 60px;">
+							<span class="icon_coment material-icons">account_circle</span>
+						</td>						
+						<td class="input-field col s12">
+							<textarea name="" id="coment1" cols="30" rows="10" placeholder="Comentario..." style="width: 100%; height: 47px"></textarea>
+						</td>
+					</tr>
+				</table>													
+			</div>
+			<div class="perfil_autor col s12 m3">
+				<div class="perfil_img">
+					<img src="img/autor-.jpg" alt="" class="circle" height="150" width="150"> 
+				</div>
+				<h5>Perfil del autor</h5>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptas ullam adipisci sit est molestiae, fuga numquam a, vel ipsam deleniti! Fuga, adipisci. Error similique quod odio? Similique, dignissimos, omnis.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, ut. Veniam unde eveniet architecto voluptates ducimus qui voluptatibus iure dolorem. Laborum placeat officiis quasi perferendis, autem. Qui facere aspernatur earum.
+				</p>
+			</div>
+		</section>
+	</div>
+</body>
+</html>

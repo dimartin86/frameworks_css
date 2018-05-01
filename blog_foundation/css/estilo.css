@@ -1,0 +1,113 @@
+body{
+	background: url("../img/fondo.jpg");
+}
+
+.grid-container{
+	background-color:rgba(0,50,255,0.5);
+	padding: 10px 30px;
+}
+
+header{
+	border-bottom: 1px solid #96969E;
+	background: #E2E8E9;
+}
+
+.menu li{
+	background: #1779ba;
+	border-bottom: 1px solid #fff;
+}
+
+.menu li a{
+	color: #fff;
+}
+
+.slogan{
+	border-right: 1px solid #96969E;	
+}
+
+.slogan h3{
+	white-space: nowrap;
+}
+
+.slogan h5{
+	text-align: right;
+	color: #928F8F;
+}
+
+.cont_text{
+	padding: 10px;
+}
+
+.tbl_buscar{
+	width: 100%;
+}
+
+.tbl_buscar input[type=text]{
+	border-radius: 10px 0px 0px 10px; 
+	border-color:#A8A6A6;
+}
+
+.tbl_buscar button{
+	border-radius: 0px 10px 10px 0px; 
+	border-color:#A8A6A6;
+	margin-left: -33px;    
+	padding: 6px 10px;
+}
+
+.favoritos img{
+	margin-top: 10px;
+}
+
+.div_aside{
+	margin-top: 20px;
+}
+
+.div_historial ul{
+	list-style: none
+}
+
+.div_historial ul li{
+	padding: 6px;
+}
+
+.col_izq{
+	border-right: 1px solid #96969E;
+}
+
+.entradas{
+	margin-top: 20px;
+	padding: 20px;
+	background: #fff;
+}
+
+.entradas img{
+	width: 100%;
+}
+
+.entradas p{
+	margin-top: 20px;
+}
+
+.tbl_comentario{
+	width: 100%;
+}
+
+.col_izq, .tbl_buscar td{
+	background: #F1F0F3;
+}
+
+.col_der{
+	background: #DAEFF1;	
+}
+
+.centrar_texto{
+	text-align: center;
+}
+
+.btn1{
+	border-radius: 5px;
+}
+
+.user_coment{
+	color: #088F0E;
+}

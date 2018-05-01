@@ -1,0 +1,112 @@
+body{
+	background: url("../img/Sitios-De-Playas-Para-Usar-Como-FondoDe-Pantalla.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.container{
+	margin-top: 20px;
+	background:#E5F2F9;
+}
+
+p, .texto{
+	text-align: justify;
+}
+
+.galeria{
+	margin-top: 58px;
+	background: #A1BEC3; 
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+.galeria h5{
+	margin-left: 300px;
+}
+
+.cont_galeria1{
+	height: 225px;
+	padding: 5px;
+	text-align: center;
+}
+
+.cont_galeria2{
+    height: 450px;
+	padding: 5px;
+	text-align: center;
+}
+
+.cont_galeria2 img{
+	max-width: 308px;
+}
+
+.cont_galeria3{
+    height: 150px;
+	padding: 5px;
+	text-align: center;
+}
+
+.cont_galeria1 img, .cont_galeria2 img, .cont_galeria3 img{
+	max-height: 100%;
+}
+
+.icon_coment{
+	font-size: 50px;
+}
+
+.perfil_img{
+	padding: 20px;
+}
+
+.perfil_autor{
+	background: #E4E9E5;
+}
+
+.perfil_autor h5, .perfil_img{
+	text-align: center;
+}
+
+.perfil_autor h5{
+	border-bottom: 1px solid #918F97;
+}
+
+.entrada{
+	border-right: 1px solid #DBDADF;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+
+.entrada img{
+	max-width: 270px;
+}
+
+@media screen and (max-width: 600px){
+	.galeria{
+		margin-top: 120px;
+		padding-top: 20px;
+	}
+
+	.galeria h5{		
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	.redes{
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	[class *= 'cont_galeria']{
+		margin-top: 20px;
+		height: auto;		
+	}
+
+	[class *= 'cont_galeria'] img{
+		max-width: 100%;
+	}	
+
+}
+
+
